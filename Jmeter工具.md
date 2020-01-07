@@ -6,7 +6,7 @@
 
 ### 线程组界面介绍：
 
-![线程组](\images\线程组.png)
+![线程组](.\images\线程组.png)
 
 名称：线程组名称
 
@@ -22,7 +22,7 @@ Ramp-up：设置的虚拟用户数，启动的时间
 
 1、线程组中添加配置原件，JDBC connection configuration
 
-![jdbc](\images\jdbc.png)
+![jdbc](.\images\jdbc.png)
 
 variable Name for creates pool：与后面jdbc request中的名字相同
 
