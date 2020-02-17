@@ -1,0 +1,24 @@
+##### LR脚本录制
+
+web_url：用于get请求的录制
+
+web_submit_data：用于post请求
+
+乱码问题：
+
++ 录制过程产生的乱码
+
+  tool--》recoding option》advance》support charset，选择utf-8
+
++ 运行过程编码不一致
+
+  Vuser 》Run-Time settings 》Internet Protocol 》Preferences 》Options 》General 》Convert from/to UTF-8
+
+web_link：依赖于上下文的
+
+web_submit_form：依赖于上下文
+
+
+
+##### 参数化
+
