@@ -34,3 +34,17 @@ web_submit_form：依赖于上下文
 ##### 关联
 
 关联函数：web_reg_save_param
+
+关联核心原理：
+
++ 本质：从响应中查找，通过左右边界进行查找
+
+关联数组常用函数：
+
+lr_paramarr_len：获取数组长度
+
+lr_paramarr_idx：获取对应index的值
+
+lr_output_message：输出信息
+
+lr_paramarr_random：随机输出
