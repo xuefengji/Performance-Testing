@@ -2,15 +2,15 @@
 
 ##### LR脚本录制
 
-web_url：用于get请求的录制
+web_url：用于 get 请求的录制
 
-web_submit_data：用于post请求
+web_submit_data：用于 post 请求
 
 乱码问题：
 
 + 录制过程产生的乱码
 
-  tool--》recoding option》advance》support charset，选择utf-8
+  tool--》recoding option》advance》support charset，选择 utf-8
 
 + 运行过程编码不一致
 
@@ -45,7 +45,7 @@ web_submit_form：依赖于上下文
 
 lr_paramarr_len：获取数组长度
 
-lr_paramarr_idx：获取对应index的值
+lr_paramarr_idx：获取对应 index 的值
 
 lr_output_message：输出信息
 
@@ -85,9 +85,9 @@ lr_auto：是根据返回状态码判断是否错误，不会根据逻辑进行�
 
   模拟真实场景
 
-+ 思考时间在LR中的应用
++ 思考时间在 LR 中的应用
 
-  思考时间不能设置的太长，思考时间不能设置的一样，可以随机50%-200%之间
+  思考时间不能设置的太长，思考时间不能设置的一样，可以随机 50%-200% 之间
 
 
 
@@ -121,11 +121,11 @@ lr_auto：是根据返回状态码判断是否错误，不会根据逻辑进行�
 
 + 控制各种运行策略
 
-  IP欺骗：服务器对客户端的IP有验证要求,适用于局域网
+  IP 欺骗：服务器对客户端的IP有验证要求,适用于局域网
 
   带宽模拟
 
-+ 附属功能：指标监控:监控Linux statd
++ 附属功能：指标监控:监控 Linux statd
 
 
 
@@ -156,8 +156,8 @@ lr_auto：是根据返回状态码判断是否错误，不会根据逻辑进行�
 
 + CPU
 
-  + CPU使用率 %processor time
-  +  处理器队列长度 processor queue length 2*内核数
+  + CPU使用率  %processor time
+  +  处理器队列长度  processor queue length 2*内核数
 
 + 带宽
 
@@ -167,9 +167,9 @@ lr_auto：是根据返回状态码判断是否错误，不会根据逻辑进行�
 + 内存
 
   + 内存使用率
-  + 内存页交换频率 page/sec，内存和虚拟内存之间的交换频率，越低越好
+  + 内存页交换频率  page/sec，内存和虚拟内存之间的交换频率，越低越好
 
-+ 磁盘I/O
++ 磁盘 I/O
 
   + 硬盘使用率
   + 硬盘队列长度
@@ -178,7 +178,7 @@ lr_auto：是根据返回状态码判断是否错误，不会根据逻辑进行�
 
   + 多线程
   + 线程池：用于管理多线程的一种机制
-  + 线程主要消耗的是CPU的资源，CPU的资源是有限的
+  + 线程主要消耗的是 CPU 的资源，CPU 的资源是有限的
   + 动态影响
 
 + 缓存
