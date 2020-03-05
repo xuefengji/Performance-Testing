@@ -24,27 +24,27 @@ Ramp-up：设置的虚拟用户数，启动的时间
 
 ![jdbc](../images/jdbc.png)
 
-variable Name for creates pool：与后面jdbc request中的名字相同
+variable Name for creates pool：与后面 jdbc request 中的名字相同
 
-database url(mysql):jdbc:mysql://localhost:3306/test?serverTimezone=UTC，其中，test为数据库名，serverTimezone不设置时，会报错
+database url(mysql):jdbc:mysql://localhost:3306/test?serverTimezone=UTC，其中，test 为数据库名，serverTimezone 不设置时，会报错
 
-JDBC driver class:mysql的为com.mysql.jdbc.Driver
+JDBC driver class:mysql 的为 com.mysql.jdbc.Driver
 
-username:连接数据库的用户名root
+username: 连接数据库的用户名 root
 
 password：连接数据库的密码
 
-2、添加JDBC request
+2、添加 JDBC request
 
 ![jdbcrequest](../images/jdbcrequest.png)
 
-variable name of pool declared in jdbc config....:与之前JDBC config中配置的一致
+variable name of pool declared in jdbc config....:与之前 JDBC config 中配置的一致
 
-sql query：查询mysql的语句
+sql query：查询 mysql 的语句
 
-parameter values:当where id = ？时，此值代替？
+parameter values:当 where id = ？时，此值代替？
 
-parameter type：parameter values值在数据库中的类型如int、varchar等
+parameter type：parameter values 值在数据库中的类型如 int、varchar等
 
 variable name：查询的结果变量
 
