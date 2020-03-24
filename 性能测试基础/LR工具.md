@@ -156,7 +156,7 @@ lr_auto：是根据返回状态码判断是否错误，不会根据逻辑进行�
 
 + CPU
 
-  + CPU使用率  %processor time
+  + CPU 使用率  %processor time
   +  处理器队列长度  processor queue length 2*内核数
 
 + 带宽
@@ -183,6 +183,6 @@ lr_auto：是根据返回状态码判断是否错误，不会根据逻辑进行�
 
 + 缓存
 
-  cpu一级、二级、三级缓存
+  cpu 一级、二级、三级缓存
 
   
