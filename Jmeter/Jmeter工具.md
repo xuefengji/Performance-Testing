@@ -56,3 +56,18 @@ limit resuktset：最小结果集
 
 handle resuktset：结果集类型设置
 
+
+
+### 提取接口response中的数据
++ Json 提取器：
+	![Json](../images/json提取器.png)
+	
+	+ Names of created variables： 接收值的变量名，自定义，多个变量用分号分隔  
+	+ JSON Path expressions：  json path表达式，也是用分号分隔  
+	+ Match No.(0 for Random)： 0表示随机；n取第几个匹配值；-1匹配所有。若只要获取到匹配的第一个值，则填写1 
+	+ Compute concatenation var(suffix_ALL)： 如果找到许多结果，则插件将使用' ， '分隔符将它们连接起来，并将其存储在名为<variable name> _ALL的var中 
+	+ Default Values： 缺省值，匹配不到值的时候取该值，可写error 
+	
++ 将获取的值拼接字符
+
+  
