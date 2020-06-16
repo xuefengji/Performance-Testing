@@ -77,6 +77,7 @@ handle resuktset：结果集类型设置
 	+ Default Values： 缺省值，匹配不到值的时候取该值，可写error 
 	
 + 使用函数助手拼接字符
+
 	![函数助手](../images/函数助手拼接字符.png)
 	
 	![拼接字符](../images/拼接字符.png)
