@@ -1,4 +1,4 @@
-# Jmeter 工具
+# Jmeter 参数化
 
 ## Jmeter工具组成
 1、测试计划-->线程组
@@ -36,7 +36,7 @@ password：连接数据库的密码
 
 2、添加 JDBC request
 
-![jdbcrequest](../images/jdbcrequest.png)
+![request](../images/jdbcrequest.png)
 
 variable name of pool declared in jdbc config....:与之前 JDBC config 中配置的一致
 
@@ -56,32 +56,21 @@ limit resuktset：最小结果集
 
 handle resuktset：结果集类型设置
 
+3、添加调试取样器(debug simple)
+
+![取样器](F:\workspace\Performance-Testing\images\jdbc取样器.png)
+
+4、后面添加http请求
+
+5、运行后，可看到调试取样器的结果
+
+![取样器结果](F:\workspace\Performance-Testing\images\调试取样器结果.png)
+
+6、后续请求需要用到改取样器结果时，需要先使用函数助手中的__v函数转成字符
+
+![取样器结果生成字符](F:\workspace\Performance-Testing\images\生成取样器结果字符.png)
+
+![使用取样器结果](F:\workspace\Performance-Testing\images\使用取样器结果.png)
 
 
-### 提取接口response中的数据
-+ Json 提取器：提取上一请求中的response数据，使用$.获取
-	![Json](../images/json提取器.png)
-	
-	![Json response](../images/response.png)
-	
-	$:表示最外层的数据
-	
-	$.data.access_token:也可写作$..access_token
-	
-	Json 提取器中的介绍：
-	
-	+ Names of created variables： 接收值的变量名，自定义，多个变量用分号分隔  
-	+ JSON Path expressions：  json path表达式，也是用分号分隔  
-	+ Match No.(0 for Random)： 0表示随机；n取第几个匹配值；-1匹配所有。若只要获取到匹配的第一个值，则填写1 
-	+ Compute concatenation var(suffix_ALL)： 如果找到许多结果，则插件将使用' ， '分隔符将它们连接起来，并将其存储在名为<variable name> _ALL的var中 
-	+ Default Values： 缺省值，匹配不到值的时候取该值，可写error 
-	
-+ 使用函数助手拼接字符
-
-	![函数助手](../images/函数助手拼接字符.png)
-	
-	![拼接字符](../images/拼接字符.png)
-	
-将第一张图中生成的字符复制到第二张图中的参数中，如果没有其他参数时删除，
-  
-
+### CVS文件参数化
