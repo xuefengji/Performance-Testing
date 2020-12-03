@@ -1,9 +1,9 @@
 ### 提取接口response中的数据
 
 + Json 提取器：提取上一请求中的response数据，使用$.获取
-  ![Json](F:/workspace/Performance-Testing/images/json提取器.png)
+  ![Json](../images/json提取器.png)
 
-  ![Json response](F:/workspace/Performance-Testing/images/response.png)
+  ![Json response](../images/response.png)
 
   $:表示最外层的数据
 
@@ -19,9 +19,9 @@
 
 + 使用函数助手拼接字符
 
-  ![函数助手](F:/workspace/Performance-Testing/images/函数助手拼接字符.png)
+  ![函数助手](../images/函数助手拼接字符.png)
 
-  ![拼接字符](F:/workspace/Performance-Testing/images/拼接字符.png)
+  ![拼接字符](../images/拼接字符.png)
 
 将第一张图中生成的字符复制到第二张图中的参数中，如果没有其他参数时删除，
 
