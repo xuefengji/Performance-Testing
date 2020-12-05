@@ -58,19 +58,20 @@ handle resuktset：结果集类型设置
 
 3、添加调试取样器(debug simple)
 
-![取样器](F:\workspace\Performance-Testing\images\jdbc取样器.png)
+![取样器](..\images\jdbc取样器.png)
 
 4、后面添加http请求
 
 5、运行后，可看到调试取样器的结果
 
-![取样器结果](F:\workspace\Performance-Testing\images\调试取样器结果.png)
+![取样器结果](..\images\调试取样器结果.png)
 
 6、后续请求需要用到改取样器结果时，需要先使用函数助手中的__v函数转成字符
 
-![取样器结果生成字符](F:\workspace\Performance-Testing\images\生成取样器结果字符.png)
+![取样器结果生成字符](..\images\生成取样器结果字符.png)
 
-![使用取样器结果](F:\workspace\Performance-Testing\images\使用取样器结果.png)
+![使用取样器结果](..\images\使用取样器结果.png)
 
 
 ### CVS文件参数化
+
